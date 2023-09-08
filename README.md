@@ -1,5 +1,5 @@
 # flights-watcher-tkinter-selenium
-A Python tkinter application that sends notifications via email when prices get changed for a selected flight.
+A Python tkinter application that sends notifications via email when prices get changed for a selected flight on almatar.com website.
 
 for this project, I've used:
 
