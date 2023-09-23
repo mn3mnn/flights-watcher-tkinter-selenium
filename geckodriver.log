@@ -1,0 +1,62 @@
+1695428658526	geckodriver	INFO	Listening on 127.0.0.1:58645
+1695428831910	geckodriver	INFO	Listening on 127.0.0.1:58703
+1695429015247	geckodriver	INFO	Listening on 127.0.0.1:58721
+1695429139182	geckodriver	INFO	Listening on 127.0.0.1:58744
+1695429142876	geckodriver	INFO	Listening on 127.0.0.1:58748
+1695429157894	geckodriver	INFO	Listening on 127.0.0.1:58755
+1695429391049	geckodriver	INFO	Listening on 127.0.0.1:58769
+1695429394107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "--remote-debu ... 70" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileKB67SM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695429394900	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-gpu"
+1695429394977	Marionette	INFO	Listening on port 58777
+Read port: 58777
+WebDriver BiDi listening on ws://127.0.0.1:58770
+1695429395197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58770/devtools/browser/e0bf04da-95db-406f-9ab9-b49bfc72ff8c
+1695429462787	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://almatar.com/en/flights/list/?id=123565789956&currency=SAR&connection=OneWay&destination=RUH&origin=CAI&destinationCity=Riyadh,%20Saudi%20Arabia&destinationCityName=Riyadh&destinationCountryName=Saudi%20Arabia&originCity=%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9,%20%D9%85%D8%B5%D8%B1&originCityName=%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9&originCountryName=%D9%85%D8%B5%D8%B1&departure=1695513600000&class=FirstClass&className=F&adult=1&child=0&lapinfant=0&infantonchair=0&originType=city&destinationType=city&isDirect=false line 600 > injectedScript, line 1: ReferenceError: ttq is not defined
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+g@https://sc-static.net/scevent.min.js:2:2519
+a@https://sc-static.net/scevent.min.js:2:6221
+
+1695429534480	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-009263-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-009263-001, line 1: WebGL context was lost.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+Ii@https://sc-static.net/scevent.min.js:2:32478
+@https://sc-static.net/scevent.min.js:2:34515
+Q/o/u/<@https://sc-static.net/scevent.min.js:2:4310
+g@https://sc-static.net/scevent.min.js:2:2536
+u@https://sc-static.net/scevent.min.js:2:4288
+g@https://sc-static.net/scevent.min.js:2:2536
+Q/o.send@https://sc-static.net/scevent.min.js:2:4581
+Dt/</a/<@https://sc-static.net/scevent.min.js:2:6244
+g@https://sc-static.net/scevent.min.js:2:2536
+a@https://sc-static.net/scevent.min.js:2:6221
+
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-009263-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-009263-001, line 1: WebGL context was lost.
+1695429606825	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+[ERROR neqo_http3::connection] [Http3 connection] The new(81920) and the old value(131072) of setting MaxHeaderListSize do not match
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+g@https://sc-static.net/scevent.min.js:2:2519
+a@https://sc-static.net/scevent.min.js:2:6221
+
+1695429678984	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-009263-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-009263-001, line 1: WebGL context was lost.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+g@https://sc-static.net/scevent.min.js:2:2519
+a@https://sc-static.net/scevent.min.js:2:6221
+
+1695429751154	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-009263-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-009263-001, line 1: WebGL context was lost.
+1695429783060	Marionette	INFO	Stopped listening on port 58777
+Dynamically enable window occlusion 1

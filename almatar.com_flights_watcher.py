@@ -29,7 +29,8 @@ from email.mime.text import MIMEText
 # CURR_SCRIPT_PATH = os.path.dirname(sys.executable)
 # CURR_SCRIPT_PATH = ''
 
-CHROME_DRIVER_PATH = 'chromedriver.exe'
+FF_DRIVER_PATH = 'geckodriver.exe'
+FF_PATH = r'C:\Program Files\Mozilla Firefox\firefox.exe'
 DB_PATH = 'flights.db'
 logFile = open('log.txt', 'w')
 
@@ -199,8 +200,8 @@ def get_emails_for_flight(flight):
 
 def is_valid_flight_url(url, search=True):
     if search:
-        return url.startswith('https://almatar.com/en/flights/list?') or url.startswith(
-            'https://almatar.com/ar/flights/list?')
+        return url.startswith('https://almatar.com/en/flights/list') or url.startswith(
+            'https://almatar.com/ar/flights/list')
     else:
         return url.startswith('https://almatar.com/en/flights/traveller-details/') or url.startswith(
             'https://almatar.com/ar/flights/traveller-details/')
@@ -397,12 +398,12 @@ def get_times(flight):
 
 def update_flights():
     global driver
-    # Initialize the Chrome driver
-    options = webdriver.ChromeOptions()
+    # init firefox driver with headless option
+
+    options = webdriver.FirefoxOptions()
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
-
-    driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH, options=options)
+    driver = webdriver.Firefox(executable_path=FF_DRIVER_PATH, firefox_binary=FF_PATH, options=options)
 
     while True:
         for flight in flights:
@@ -489,12 +490,10 @@ def add_flight():
         return
 
     try:
-        # Initialize the Chrome driver
-        options = webdriver.ChromeOptions()
+        options = webdriver.FirefoxOptions()
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
-
-        driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH, options=options)
+        driver = webdriver.Firefox(executable_path=FF_DRIVER_PATH, firefox_binary=FF_PATH, options=options)
 
         flight_info = get_flight_info(driver, flight_link)
         if not flight_info:
